@@ -1,0 +1,354 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito',sans-serif;
+margin: 0;
+}
+
+#menu{
+    height: 80px;
+    /*background-color: red;*/
+ padding: 0 20px;
+
+}
+#logo{
+    font-size: 20px;
+ line-height:80px ;
+color:#003666;
+float: left;
+}
+.topnav{
+   float: right; 
+ line-height: 80px;
+}
+.topnav a:link{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #003666;
+
+}
+.topnav a:hover{
+border-bottom:2px solid  #003666;
+
+}
+.topnav a:visited{
+    text-decoration: 25px;
+    margin-right: 25px;
+    color: #003666;
+
+}
+.ikon{
+    margin-right: 7px;
+    font-size: 16px;
+} /*menu kısmı bitti*/
+#anasayfa{
+    background-size:cover;
+    height: 600px;
+    background-image: url(../Turnuva2/images/espor.jpg);
+    background-position: center;/* bu ve alttaki özellik resmi arkaplanda sabitliyor.bu ortalayan*/
+    background-attachment: fixed;/*sabitleyen*/
+}
+#black{
+    height: 600px;
+    background-color: black;
+    opacity: 0.5;
+
+}
+#icerik{
+    color: blanchedalmond;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+font-size: 20px;
+}
+/*banner bitti*/
+#hakkimizda{
+    background-color: #f8f9fa;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600px;
+}
+h3{
+    font-size: 55px;
+    color: #003666;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+    text-align: center;
+
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    height: auto;
+    float: center;
+
+}
+#sol{
+    float: left;
+    border-right:  3px solid #445c6e;
+    font-size: 5px;
+    width:500px ;
+    color: #445c6e;
+
+  
+}
+#h5sol{
+    line-height: 1.6;
+    font-size:22px;
+    font-weight: 600;
+    text-align: center;
+
+}
+#h5sol,#sag{
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+}
+span{
+    font-size: 50px;
+    margin-right: -9px;
+    line-height: 42px;
+    color: #003666;
+    font-weight: 600;
+    float: left;
+}
+#sag{
+    float: right;
+    width: 750px;
+    color:#999999;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 100;
+}
+.img-fluid{
+    width: 90%;
+    height: auto;
+    background-position: center;/* bu ve alttaki özellik resmi arkaplanda sabitliyor.bu ortalayan*/
+    background-attachment: fixed;/*sabitleyen*/
+    
+    
+
+}
+.mt100{
+    margin-top: 35px;
+    margin-left: 90px;
+
+}
+#pson{
+    color:#999;
+    letter-spacing: 1px;
+    font-size:15px;
+    line-height: 1;
+    margin-top: 30px;
+    font-weight: 100;
+    left: auto;
+}
+/*hakkımızda bolumu bitti*/
+#turnuva{
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    height: 800px;
+}
+.card{
+    width: 320px;
+    height: 450px;
+    border: 1px solid #ddd;
+ padding: 0;
+ display: inline-block;
+}
+.baslikcard{
+    font-size:15px ;
+    color: #003666;
+}
+.cardp{
+    color: #888;
+}
+.card a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #003666;
+}
+.card a:hover{
+    transform: 1.5;
+   
+}
+.card:hover{
+    border:2px solid gray;
+    
+}
+.btndvm{
+    display: block;
+    width: 150px;
+    width: 158px;
+    padding: 10px 20px ;
+    left: 80px;
+    margin: 45px;
+    margin-left: 80px;
+    text-decoration: none;
+    color:white;
+    border-radius: 10px;
+    border: 0.5px solid rgb(39, 17, 17);
+ 
+ }
+ .btndvm:hover{
+ opacity: 0.8;
+ color:white;
+ background-color:orange ;
+ }
+ /* ekip alanı */
+ #ekip{
+    background-color: #003666;
+    padding:50px ;
+    height: 850px; 
+    text-align: center;
+ }
+ #ekiph3{
+     color: #fff;
+ }
+ .sutun-sol-sag{
+     width: 385px;
+     float: left;
+    padding:70px ;
+    }
+ .oval{
+     border-radius: 50%;
+ }
+ .ekipismi{
+     color:#fff;
+     font-size: 25px;
+     margin-bottom: 12px; 
+ }
+ .ekipp{
+     color:#888;
+     font-size: 20px;
+ }
+ .social{
+     color: white;
+     border: 1px solid white;
+     padding: 10px;
+     width: 50px;
+     border-radius: 10px;
+     margin: 5px 10px;
+
+ }
+.social:hover{
+    background-color: #588;
+
+}
+.sutun{
+    width: 385px;
+     float: left;
+    padding:10px ;
+}
+/* ekip bitti*/
+#iletisim{
+    background:url(../Turnuva2/images/iletisim.jpg);
+    background-size:cover ;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 50px;
+    height: auto;
+    text-align: center;
+}
+#h3iletisim{
+    color: white;
+}
+#iletisimopak{
+    background: rgb(255, 255,255, 0.2);
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    height: 550px;
+}
+#formgorup{
+    width:700px ;
+    float: left;
+    height: 500px;
+    text-align: left;
+
+}
+#solform{
+    width: 50%;
+    float: left;
+    padding-right:5px;
+}
+#sagform{
+    width: 50%;
+    float: right;
+    padding-left:5px;
+}
+
+.form-control{
+    width:100% ;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #445c6e;
+    background-color: white;
+   margin: 10px;
+   border-radius: 5px;
+   border:1px solid #ced4da
+}
+
+textarea{
+    font-family: Arial, Helvetica, sans-serif ;
+
+}
+input[type="submit"]{
+    dursor:pointer;
+    background-color: #445c6e;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    color: white;
+    border:2px solid white;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top:20px ;
+
+}
+
+#adres{
+    width: 450px;
+    float:right ;
+    padding: 30px;
+    height: 500px;
+    text-align: left;
+}
+#baslikh4{
+    font-size: 25px;
+    color: white;
+
+}
+.adresp{
+    color:#ddd;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+#copyright{
+    color:#ddd;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+#up{
+    color: white;
+    border:1px solid white;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 10px 15px;
+    margin-top: 5px;
+    float: right;
+   
+}
+#up:hover{
+    background-color: #588;
+
+}
